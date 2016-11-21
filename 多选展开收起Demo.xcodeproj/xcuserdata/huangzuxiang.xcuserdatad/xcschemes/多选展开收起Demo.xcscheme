@@ -81,6 +81,13 @@
             ReferencedContainer = "container:&#x591a;&#x9009;&#x5c55;&#x5f00;&#x6536;&#x8d77;Demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "OS_ACTIVITY_MODE"
+            value = "disable"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>

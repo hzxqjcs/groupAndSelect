@@ -15,6 +15,14 @@
 		D3FB3A2F1DDDE190007E53C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FB3A2D1DDDE190007E53C9 /* LaunchScreen.storyboard */; };
 		D3FB3A3A1DDDE190007E53C9 /* ______DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FB3A391DDDE190007E53C9 /* ______DemoTests.m */; };
 		D3FB3A451DDDE190007E53C9 /* ______DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FB3A441DDDE190007E53C9 /* ______DemoUITests.m */; };
+		D3FB3A541DDDE335007E53C9 /* ZSeleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FB3A531DDDE335007E53C9 /* ZSeleCell.m */; };
+		D3FB3A571DDDE380007E53C9 /* ZseleHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FB3A561DDDE380007E53C9 /* ZseleHeadView.m */; };
+		D3FB3A5E1DDDE50E007E53C9 /* checkbox_r_false@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FB3A581DDDE50E007E53C9 /* checkbox_r_false@2x.png */; };
+		D3FB3A5F1DDDE50E007E53C9 /* checkbox_r_false@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FB3A591DDDE50E007E53C9 /* checkbox_r_false@3x.png */; };
+		D3FB3A601DDDE50E007E53C9 /* checkbox_r_true@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FB3A5A1DDDE50E007E53C9 /* checkbox_r_true@2x.png */; };
+		D3FB3A611DDDE50E007E53C9 /* checkbox_r_true@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FB3A5B1DDDE50E007E53C9 /* checkbox_r_true@3x.png */; };
+		D3FB3A621DDDE50E007E53C9 /* icon_triangle_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FB3A5C1DDDE50E007E53C9 /* icon_triangle_right@2x.png */; };
+		D3FB3A631DDDE50E007E53C9 /* icon_triangle_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FB3A5D1DDDE50E007E53C9 /* icon_triangle_right@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,16 @@
 		D3FB3A401DDDE190007E53C9 /* 多选展开收起DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "多选展开收起DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3FB3A441DDDE190007E53C9 /* ______DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______DemoUITests.m"; sourceTree = "<group>"; };
 		D3FB3A461DDDE190007E53C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3FB3A521DDDE335007E53C9 /* ZSeleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSeleCell.h; sourceTree = "<group>"; };
+		D3FB3A531DDDE335007E53C9 /* ZSeleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSeleCell.m; sourceTree = "<group>"; };
+		D3FB3A551DDDE380007E53C9 /* ZseleHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZseleHeadView.h; sourceTree = "<group>"; };
+		D3FB3A561DDDE380007E53C9 /* ZseleHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZseleHeadView.m; sourceTree = "<group>"; };
+		D3FB3A581DDDE50E007E53C9 /* checkbox_r_false@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox_r_false@2x.png"; sourceTree = "<group>"; };
+		D3FB3A591DDDE50E007E53C9 /* checkbox_r_false@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox_r_false@3x.png"; sourceTree = "<group>"; };
+		D3FB3A5A1DDDE50E007E53C9 /* checkbox_r_true@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox_r_true@2x.png"; sourceTree = "<group>"; };
+		D3FB3A5B1DDDE50E007E53C9 /* checkbox_r_true@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox_r_true@3x.png"; sourceTree = "<group>"; };
+		D3FB3A5C1DDDE50E007E53C9 /* icon_triangle_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_triangle_right@2x.png"; sourceTree = "<group>"; };
+		D3FB3A5D1DDDE50E007E53C9 /* icon_triangle_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_triangle_right@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +119,20 @@
 		D3FB3A1E1DDDE190007E53C9 /* 多选展开收起Demo */ = {
 			isa = PBXGroup;
 			children = (
+				D3FB3A581DDDE50E007E53C9 /* checkbox_r_false@2x.png */,
+				D3FB3A591DDDE50E007E53C9 /* checkbox_r_false@3x.png */,
+				D3FB3A5A1DDDE50E007E53C9 /* checkbox_r_true@2x.png */,
+				D3FB3A5B1DDDE50E007E53C9 /* checkbox_r_true@3x.png */,
+				D3FB3A5C1DDDE50E007E53C9 /* icon_triangle_right@2x.png */,
+				D3FB3A5D1DDDE50E007E53C9 /* icon_triangle_right@3x.png */,
 				D3FB3A221DDDE190007E53C9 /* AppDelegate.h */,
 				D3FB3A231DDDE190007E53C9 /* AppDelegate.m */,
 				D3FB3A251DDDE190007E53C9 /* ViewController.h */,
 				D3FB3A261DDDE190007E53C9 /* ViewController.m */,
+				D3FB3A521DDDE335007E53C9 /* ZSeleCell.h */,
+				D3FB3A531DDDE335007E53C9 /* ZSeleCell.m */,
+				D3FB3A551DDDE380007E53C9 /* ZseleHeadView.h */,
+				D3FB3A561DDDE380007E53C9 /* ZseleHeadView.m */,
 				D3FB3A281DDDE190007E53C9 /* Main.storyboard */,
 				D3FB3A2B1DDDE190007E53C9 /* Assets.xcassets */,
 				D3FB3A2D1DDDE190007E53C9 /* LaunchScreen.storyboard */,
@@ -250,7 +278,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3FB3A2F1DDDE190007E53C9 /* LaunchScreen.storyboard in Resources */,
+				D3FB3A611DDDE50E007E53C9 /* checkbox_r_true@3x.png in Resources */,
+				D3FB3A621DDDE50E007E53C9 /* icon_triangle_right@2x.png in Resources */,
+				D3FB3A5F1DDDE50E007E53C9 /* checkbox_r_false@3x.png in Resources */,
 				D3FB3A2C1DDDE190007E53C9 /* Assets.xcassets in Resources */,
+				D3FB3A5E1DDDE50E007E53C9 /* checkbox_r_false@2x.png in Resources */,
+				D3FB3A631DDDE50E007E53C9 /* icon_triangle_right@3x.png in Resources */,
+				D3FB3A601DDDE50E007E53C9 /* checkbox_r_true@2x.png in Resources */,
 				D3FB3A2A1DDDE190007E53C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,8 +311,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3FB3A271DDDE190007E53C9 /* ViewController.m in Sources */,
+				D3FB3A541DDDE335007E53C9 /* ZSeleCell.m in Sources */,
 				D3FB3A241DDDE190007E53C9 /* AppDelegate.m in Sources */,
 				D3FB3A211DDDE190007E53C9 /* main.m in Sources */,
+				D3FB3A571DDDE380007E53C9 /* ZseleHeadView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +550,7 @@
 				D3FB3A4B1DDDE190007E53C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3FB3A4C1DDDE190007E53C9 /* Build configuration list for PBXNativeTarget "多选展开收起DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +559,7 @@
 				D3FB3A4E1DDDE190007E53C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3FB3A4F1DDDE190007E53C9 /* Build configuration list for PBXNativeTarget "多选展开收起DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +568,7 @@
 				D3FB3A511DDDE190007E53C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
